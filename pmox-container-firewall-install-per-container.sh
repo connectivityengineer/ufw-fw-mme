@@ -3,6 +3,12 @@
 # Get a list of all running containers
 containers=$(pct list)
 
+# Display a list of all containers to the user
+echo "Available containers:"
+for container in $containers; do
+  echo "  $container"
+done
+
 # Ask the user which containers they want to run the command in
 echo "Which containers do you want to run the command in? (all or list numbers separated by a comma)"
 read -r input

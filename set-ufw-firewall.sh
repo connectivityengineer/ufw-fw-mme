@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt install curl -y 
+
 set -euo pipefail
 
 # Get the Cloudflare IPs

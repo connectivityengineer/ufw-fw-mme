@@ -24,6 +24,7 @@ ufw allow from 45.12.1.23 comment 'UkraineSource specific server'
 ufw allow from 169.197.88.0/24 comment 'NYC DC Cluster Members'
 ufw allow from 23.120.253.0/24 comment 'OUR OWN IP RANGE' 
 ufw allow from 100.64.0.0/10 comment 'Our Internal Range'
+ufw allow from 166.0.186.0/24 comment 'our own subnet public eu range'
 
 
 # Allow SSH.
